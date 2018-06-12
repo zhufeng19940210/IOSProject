@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5A64B020CEDCE10029EAB3 /* PersonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5A64AF20CEDCE10029EAB3 /* PersonTool.m */; };
 		BF934FCD20CC392300C74E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FCC20CC392300C74E1F /* AppDelegate.m */; };
 		BF934FD020CC392300C74E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FCF20CC392300C74E1F /* ViewController.m */; };
 		BF934FD320CC392300C74E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF934FD120CC392300C74E1F /* Main.storyboard */; };
 		BF934FD520CC392300C74E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF934FD420CC392300C74E1F /* Assets.xcassets */; };
 		BF934FD820CC392300C74E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF934FD620CC392300C74E1F /* LaunchScreen.storyboard */; };
 		BF934FDB20CC392300C74E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FDA20CC392300C74E1F /* main.m */; };
+		BF934FEF20CC3E1600C74E1F /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FEE20CC3E1600C74E1F /* HomeVC.m */; };
+		BF934FF220CC3E2C00C74E1F /* BottomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FF120CC3E2C00C74E1F /* BottomVC.m */; };
+		BF934FF620CC3F4D00C74E1F /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FF520CC3F4D00C74E1F /* BaseVC.m */; };
+		BF934FFB20CC80A900C74E1F /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FF920CC80A900C74E1F /* RunTimeVC.m */; };
+		BF934FFC20CC80A900C74E1F /* RunTimeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF934FFA20CC80A900C74E1F /* RunTimeVC.xib */; };
+		BF934FFF20CC8ABD00C74E1F /* UIButton+Addtation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF934FFE20CC8ABD00C74E1F /* UIButton+Addtation.m */; };
+		BF93500320CC907600C74E1F /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93500120CC907600C74E1F /* RunLoopVC.m */; };
+		BF93500420CC907600C74E1F /* RunLoopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF93500220CC907600C74E1F /* RunLoopVC.xib */; };
+		BF93500820CC90BF00C74E1F /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93500620CC90BF00C74E1F /* TestVC.m */; };
+		BF93500920CC90BF00C74E1F /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF93500720CC90BF00C74E1F /* TestVC.xib */; };
+		BF93500D20CC90CD00C74E1F /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93500B20CC90CD00C74E1F /* BlockVC.m */; };
+		BF93500E20CC90CD00C74E1F /* BlockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF93500C20CC90CD00C74E1F /* BlockVC.xib */; };
+		BF93501120CC97F500C74E1F /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93501020CC97F500C74E1F /* UIImageView+Extension.m */; };
+		BF93501420CC9AEC00C74E1F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93501320CC9AEC00C74E1F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5A64AE20CEDCE10029EAB3 /* PersonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonTool.h; sourceTree = "<group>"; };
+		BF5A64AF20CEDCE10029EAB3 /* PersonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTool.m; sourceTree = "<group>"; };
 		BF934FC820CC392200C74E1F /* iosProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF934FCB20CC392300C74E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF934FCC20CC392300C74E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,31 @@
 		BF934FD720CC392300C74E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF934FD920CC392300C74E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF934FDA20CC392300C74E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF934FED20CC3E1600C74E1F /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		BF934FEE20CC3E1600C74E1F /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		BF934FF020CC3E2C00C74E1F /* BottomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomVC.h; sourceTree = "<group>"; };
+		BF934FF120CC3E2C00C74E1F /* BottomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomVC.m; sourceTree = "<group>"; };
+		BF934FF420CC3F4D00C74E1F /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		BF934FF520CC3F4D00C74E1F /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		BF934FF720CC3F6400C74E1F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF934FF820CC80A900C74E1F /* RunTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeVC.h; sourceTree = "<group>"; };
+		BF934FF920CC80A900C74E1F /* RunTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeVC.m; sourceTree = "<group>"; };
+		BF934FFA20CC80A900C74E1F /* RunTimeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunTimeVC.xib; sourceTree = "<group>"; };
+		BF934FFD20CC8ABD00C74E1F /* UIButton+Addtation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addtation.h"; sourceTree = "<group>"; };
+		BF934FFE20CC8ABD00C74E1F /* UIButton+Addtation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addtation.m"; sourceTree = "<group>"; };
+		BF93500020CC907600C74E1F /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
+		BF93500120CC907600C74E1F /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
+		BF93500220CC907600C74E1F /* RunLoopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoopVC.xib; sourceTree = "<group>"; };
+		BF93500520CC90BF00C74E1F /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		BF93500620CC90BF00C74E1F /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		BF93500720CC90BF00C74E1F /* TestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		BF93500A20CC90CD00C74E1F /* BlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockVC.h; sourceTree = "<group>"; };
+		BF93500B20CC90CD00C74E1F /* BlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
+		BF93500C20CC90CD00C74E1F /* BlockVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockVC.xib; sourceTree = "<group>"; };
+		BF93500F20CC97F500C74E1F /* UIImageView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		BF93501020CC97F500C74E1F /* UIImageView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		BF93501220CC9AEC00C74E1F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BF93501320CC9AEC00C74E1F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 		BF934FCA20CC392200C74E1F /* iosProject2 */ = {
 			isa = PBXGroup;
 			children = (
+				BF934FE220CC39C600C74E1F /* Classes */,
 				BF934FCB20CC392300C74E1F /* AppDelegate.h */,
 				BF934FCC20CC392300C74E1F /* AppDelegate.m */,
 				BF934FCE20CC392300C74E1F /* ViewController.h */,
@@ -67,8 +110,130 @@
 				BF934FD620CC392300C74E1F /* LaunchScreen.storyboard */,
 				BF934FD920CC392300C74E1F /* Info.plist */,
 				BF934FDA20CC392300C74E1F /* main.m */,
+				BF934FF720CC3F6400C74E1F /* PrefixHeader.pch */,
 			);
 			path = iosProject2;
+			sourceTree = "<group>";
+		};
+		BF934FE220CC39C600C74E1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FF320CC3F3F00C74E1F /* Base */,
+				BF934FE320CC3DFF00C74E1F /* Bottom */,
+				BF934FE820CC3DFF00C74E1F /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF934FE320CC3DFF00C74E1F /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FE420CC3DFF00C74E1F /* Controller */,
+				BF934FE520CC3DFF00C74E1F /* Model */,
+				BF934FE620CC3DFF00C74E1F /* Other */,
+				BF934FE720CC3DFF00C74E1F /* View */,
+			);
+			path = Bottom;
+			sourceTree = "<group>";
+		};
+		BF934FE420CC3DFF00C74E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FF020CC3E2C00C74E1F /* BottomVC.h */,
+				BF934FF120CC3E2C00C74E1F /* BottomVC.m */,
+				BF934FF820CC80A900C74E1F /* RunTimeVC.h */,
+				BF934FF920CC80A900C74E1F /* RunTimeVC.m */,
+				BF934FFA20CC80A900C74E1F /* RunTimeVC.xib */,
+				BF93500020CC907600C74E1F /* RunLoopVC.h */,
+				BF93500120CC907600C74E1F /* RunLoopVC.m */,
+				BF93500220CC907600C74E1F /* RunLoopVC.xib */,
+				BF93500520CC90BF00C74E1F /* TestVC.h */,
+				BF93500620CC90BF00C74E1F /* TestVC.m */,
+				BF93500720CC90BF00C74E1F /* TestVC.xib */,
+				BF93500A20CC90CD00C74E1F /* BlockVC.h */,
+				BF93500B20CC90CD00C74E1F /* BlockVC.m */,
+				BF93500C20CC90CD00C74E1F /* BlockVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF934FE520CC3DFF00C74E1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FFD20CC8ABD00C74E1F /* UIButton+Addtation.h */,
+				BF934FFE20CC8ABD00C74E1F /* UIButton+Addtation.m */,
+				BF93500F20CC97F500C74E1F /* UIImageView+Extension.h */,
+				BF93501020CC97F500C74E1F /* UIImageView+Extension.m */,
+				BF93501220CC9AEC00C74E1F /* Person.h */,
+				BF93501320CC9AEC00C74E1F /* Person.m */,
+				BF5A64AE20CEDCE10029EAB3 /* PersonTool.h */,
+				BF5A64AF20CEDCE10029EAB3 /* PersonTool.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF934FE620CC3DFF00C74E1F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BF934FE720CC3DFF00C74E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF934FE820CC3DFF00C74E1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FE920CC3DFF00C74E1F /* Controller */,
+				BF934FEA20CC3DFF00C74E1F /* Model */,
+				BF934FEB20CC3DFF00C74E1F /* Other */,
+				BF934FEC20CC3DFF00C74E1F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF934FE920CC3DFF00C74E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FED20CC3E1600C74E1F /* HomeVC.h */,
+				BF934FEE20CC3E1600C74E1F /* HomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF934FEA20CC3DFF00C74E1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF934FEB20CC3DFF00C74E1F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BF934FEC20CC3DFF00C74E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF934FF320CC3F3F00C74E1F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF934FF420CC3F4D00C74E1F /* BaseVC.h */,
+				BF934FF520CC3F4D00C74E1F /* BaseVC.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF934FD820CC392300C74E1F /* LaunchScreen.storyboard in Resources */,
+				BF93500E20CC90CD00C74E1F /* BlockVC.xib in Resources */,
+				BF93500420CC907600C74E1F /* RunLoopVC.xib in Resources */,
+				BF93500920CC90BF00C74E1F /* TestVC.xib in Resources */,
+				BF934FFC20CC80A900C74E1F /* RunTimeVC.xib in Resources */,
 				BF934FD520CC392300C74E1F /* Assets.xcassets in Resources */,
 				BF934FD320CC392300C74E1F /* Main.storyboard in Resources */,
 			);
@@ -142,8 +311,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5A64B020CEDCE10029EAB3 /* PersonTool.m in Sources */,
 				BF934FD020CC392300C74E1F /* ViewController.m in Sources */,
+				BF934FEF20CC3E1600C74E1F /* HomeVC.m in Sources */,
+				BF93500D20CC90CD00C74E1F /* BlockVC.m in Sources */,
+				BF93501120CC97F500C74E1F /* UIImageView+Extension.m in Sources */,
 				BF934FDB20CC392300C74E1F /* main.m in Sources */,
+				BF93500320CC907600C74E1F /* RunLoopVC.m in Sources */,
+				BF934FF620CC3F4D00C74E1F /* BaseVC.m in Sources */,
+				BF934FFF20CC8ABD00C74E1F /* UIButton+Addtation.m in Sources */,
+				BF934FFB20CC80A900C74E1F /* RunTimeVC.m in Sources */,
+				BF93501420CC9AEC00C74E1F /* Person.m in Sources */,
+				BF934FF220CC3E2C00C74E1F /* BottomVC.m in Sources */,
+				BF93500820CC90BF00C74E1F /* TestVC.m in Sources */,
 				BF934FCD20CC392300C74E1F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +388,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/bailing/Desktop/IOSProject/iosProject2/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -261,6 +442,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/bailing/Desktop/IOSProject/iosProject2/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -280,7 +462,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = /Users/bailing/Desktop/IOSProject/iosProject2/PrefixHeader.pch;
 				INFOPLIST_FILE = iosProject2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.iosProject2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,7 +478,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				GCC_PREFIX_HEADER = /Users/bailing/Desktop/IOSProject/iosProject2/PrefixHeader.pch;
 				INFOPLIST_FILE = iosProject2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.iosProject2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

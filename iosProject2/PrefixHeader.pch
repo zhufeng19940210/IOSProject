@@ -1,0 +1,26 @@
+//  PrefixHeader.pch
+//  iosProject2
+//  Created by bailing on 2018/6/9.
+//  Copyright © 2018年 zhufeng. All rights reserved.
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//导入全部的控件
+#import "BaseVC.h"
+//动态获取设备高度
+#define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define IPHONE_WIDTH [UIScreen mainScreen].bounds.size.width
+//设置颜色
+#define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//设置颜色与透明度
+#define HEXCOLORAL(rgbValue, al) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
+//颜色
+#define RGB(A,B,C) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+#define RGBA(A,B,C,D) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:D]
+//主题颜色
+#define MainThemeColor HEXCOLOR(0x19b8b0)
+//背景颜色
+#define BackgroundColor HEXCOLOR(0xf5f5f5)
+//线条颜色
+#define LineColor HEXCOLOR(0xEAEAEA)
+
+#endif /* PrefixHeader_pch */

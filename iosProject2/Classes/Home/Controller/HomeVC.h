@@ -1,4 +1,5 @@
-//  ViewController.h
+//
+//  HomeVC.h
 //  iosProject2
 //
 //  Created by bailing on 2018/6/9.
@@ -7,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeVC : UIViewController
 
 @end
-
